@@ -1,0 +1,73 @@
+$theme-colors: ("primary":rgb(150,150,150), "danger": #ff4136);
+
+
+$font-size-base: 0.9rem; // Assumes the browser default, typically `16px`
+
+// Body
+$body-bg: #192028;
+$body-color: #858688;
+$darker-bg: darker(#192028, 2%);
+// Font
+$font-family-sans-serif : 'Poppins',
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol" !default;
+// Border 
+$border-radius : 4px;
+$border-radius-lg : 5px;
+$border-radius-sm : 3px;
+// Theme colors 
+$theme-colors: ("primary": #48C6B6, "secondary": #649B94, "danger": #FF3636, "success": #19CE10, "info": #2CA8FF, "warning": #FFB237, "dark": #1A1D21, "light": #9b9c9e);
+// Card
+$card-bg:#1D232C;
+// Pagination
+$pagination-bg : inherit;
+$pagination-border-color : inherit;
+$pagination-hover-bg: rgba(0, 0, 0, 0.1);
+$pagination-hover-border-color: rgba(0, 0, 0, 0.1);
+// Breadcrumb
+$breadcrumb-bg : $card-bg;
+// Input
+$input-bg: #1D232C;
+$input-border-color : #38404A;
+$input-focus-border-color : lighten(#38404A, 5%);
+$input-focus-color: #fff;
+// Input group
+$input-group-addon-bg : darken($input-bg, 5%);
+$custom-control-indicator-bg : $input-bg;
+;
+// Jumbotron
+$jumbotron-bg : darker(#192028, 1%);
+// Text muted
+$text-muted : #495057; // Swap black to white and white to black as it is dark theme
+$black: rgb(150, 150, 150);
+$white: rgb(70, 70, 70);
+$black: rgb(250, 250, 250);
+$white: rgb(5, 5, 5); // Progress
+$progress-border-radius : 2px; // Dropdown
+$dropdown-link-color : $body-color;
+$dropdown-link-hover-color : darken($body-color, 5%);
+$dropdown-link-hover-bg : rgba(0, 0, 0, 0.1);
+$dropdown-divider-bg : rgba(255, 255, 255, 0.06) !default;
+$dropdown-bg : $card-bg;
+// List group
+$list-group-bg : $card-bg;
+// Modal
+$modal-content-bg : $body-bg;
+$modal-content-border-color : $body-bg;
+$modal-backdrop-bg : $white;
+$modal-header-border-color : rgba(255, 255, 255, 0.06);
+$modal-footer-border-color : rgba(255, 255, 255, 0.06);
+// Table
+$table-border-color : rgba(255, 255, 255, 0.05);
+// Popover
+$popover-bg : $card-bg;
+// Border
+$border-color: rgba($black, .125);
