@@ -16,7 +16,7 @@ npm run serve
 
 Also set your base url to API in config.js
 
-## Build with
+## Made with
 * Vue.js
 * VueRouter
 * Bootstrap
